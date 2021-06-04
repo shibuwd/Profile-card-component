@@ -179,10 +179,6 @@ body {
 
 @media only screen and (min-width: 840px) {
    .bg-pattern-bottom {
-    background: url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
     transform: scale(1);
     top: 25rem;
     left:  25rem;
@@ -190,17 +186,11 @@ body {
 .card-pattern {
     height: 144px;
     width: 380px;
-
 }
 }
 
 @media only screen and (min-width: 950px) {
     .bg-pattern-bottom {
-    background: url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: scale(1);
     top: 25rem;
     left:  30rem;
 }
@@ -208,20 +198,10 @@ body {
 
 @media only screen and (min-width: 1280px) {
     .bg-pattern-top {
-    background: url(./images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: scale(1);
     left: -20rem;
     top: -30rem;
 }
  .bg-pattern-bottom {
-    background: url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: scale(1);
     top: 30rem;
     left:  30rem;
 }
@@ -229,23 +209,17 @@ body {
 
 @media only screen and (min-width: 1366px) {
     .bg-pattern-top {
-    background: url(./images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: scale(1);
-    left: -10rem;
+    left: -20rem;
     top: -30rem;
+}
+ .bg-pattern-bottom {
+    top: 20rem;
+    left:  40rem;
 }
 }
 
 @media only screen and (min-width: 1440px) {
      .bg-pattern-bottom {
-    background: url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    transform: scale(1);
     top: 20rem;
     left:  50rem;
 }
