@@ -129,12 +129,13 @@ body {
 
 /*  end  card section */
 
-.credit  .attribution {
+.attribution {
     font-size: 11px;
     text-align: center; 
+    padding: .2rem;
 }
 
-.credit  .attribution a {
+.attribution a {
       color: hsl(228, 45%, 44%); 
       text-decoration: none;
  }
@@ -174,6 +175,26 @@ body {
 }
 .all-info {
     gap: 4rem;
+}
+.card-info  h2 {
+    font-size: 1.5rem;
+}
+
+.card-info  h2 span {
+    font-weight: 100;
+    color: var(--dark-grayish-blue);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+.all-info h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: .1rem;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.all-info  span {
+    font-size: .95rem;
+    color: var(--dark-grayish-blue);
 }
 }
 
