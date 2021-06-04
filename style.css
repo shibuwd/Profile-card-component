@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+:root {
+   --dark-cyan: hsl(185, 75%, 39%);
+   --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+   --dark-grayish-blue: hsl(227, 10%, 46%);
+   --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/*  card section */
+
+.container {
+    background-color: var(--dark-cyan);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-pattern-top {
+    background: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 978px;
+    width: 978px;
+    position: absolute;
+    transform: scale(.7);
+    bottom: 0;
+    left: -40rem;
+    top: -30rem;
+}
+
+.bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 978px;
+    width: 978px;
+    position: absolute;
+    transform: scale(.8);
+    top: 14rem;
+    left:  2rem;
+}
+
+.card-container {
+    background-color: rgb(243, 243, 243);
+    z-index: 999;
+    border-radius: 1rem;
+    position: relative;
+    height: 400px;
+    width: 340px;
+    -webkit-box-shadow: 0px 1px 10px 5px rgb(32, 155, 167);
+    box-shadow: 0px 1px 10px 5px rgb(32, 155, 167);
+}
+
+.card-pattern {
+    background: url(./images/bg-pattern-card.svg);
+    height: 144px;
+    width: 340px;
+    z-index: 999;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.photo img {
+    border-radius: 50%;
+    margin-top: -3rem;
+    border:  .3rem solid white;
+}
+
+.card-info  h2 {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.card-info  h2 span {
+    font-weight: 100;
+    color: var(--dark-grayish-blue);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+
+.card-info .city {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    margin-top: .5rem;
+}
+
+.card-info hr {
+    border: 1px solid rgb(236, 234, 232);
+    margin-top: 2rem;
+}
+
+.all-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 2.2rem;
+}
+
+.all-info h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: .1rem;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.all-info  span {
+    font-size: .8rem;
+    color: var(--dark-grayish-blue);
+}
+
+/*  end  card section */
+
+.credit  .attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+
+.credit  .attribution a {
+      color: hsl(228, 45%, 44%); 
+      text-decoration: none;
+ }
+
+/* media query*/
+
+@media only screen and (min-width: 768px) {
+    .bg-pattern-top {
+    background: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    bottom: 0;
+    left: -30rem;
+    top: -30rem;
+}
+.bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    top: 25rem;
+    left:  20rem;
+}
+.card-pattern {
+    background: url(./images/bg-pattern-card.svg);
+    height: 144px;
+    width: 380px;
+    z-index: 999;
+    border-radius: 1rem 1rem 0 0;
+}
+.card-container {
+    height: 400px;
+    width: 380px;
+}
+.all-info {
+    gap: 4rem;
+}
+}
+
+@media only screen and (min-width: 840px) {
+   .bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    top: 25rem;
+    left:  25rem;
+}
+.card-pattern {
+    height: 144px;
+    width: 380px;
+
+}
+}
+
+@media only screen and (min-width: 950px) {
+    .bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    top: 25rem;
+    left:  30rem;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+    .bg-pattern-top {
+    background: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    left: -20rem;
+    top: -30rem;
+}
+ .bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    top: 30rem;
+    left:  30rem;
+}
+}
+
+@media only screen and (min-width: 1366px) {
+    .bg-pattern-top {
+    background: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    left: -10rem;
+    top: -30rem;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+     .bg-pattern-bottom {
+    background: url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: scale(1);
+    top: 20rem;
+    left:  50rem;
+}
+
+}
+
+/* end  media query*/
